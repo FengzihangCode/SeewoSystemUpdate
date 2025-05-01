@@ -1,0 +1,2 @@
+# SeewoSystemUpdate
+似乎是它让我无法更新希沃一体机上的Windows
