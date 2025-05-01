@@ -87,4 +87,4 @@ sc config trustedinstaller binpath= "C:\WINDOWS\servicing\TrustedInstaller.exe"
 
 ⸻
 
-[^1] 利用了 ChatGPT 进行相关分析
+[^1]: 利用了 ChatGPT 进行相关分析
