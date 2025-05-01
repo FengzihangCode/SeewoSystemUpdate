@@ -1,7 +1,14 @@
 # SeewoSystemUpdate
-似乎是它让我无法更新希沃一体机上的Windows
+似乎是它让我无法更新希沃一体机上的Windows，不知道该代码由学校还是希沃分发，因此仅供参考。
 
 研究代码过后发现它相当激进 [^1]
+
+## Enable
+
+管理员运行
+由于`disable.bat`的触发机理尚不明确，建议替换 C: 中的 `ProgramData` 文件夹里的 disable 文件为 enable
+
+## Disable
 
 ### 以管理员权限重新运行自身
 
