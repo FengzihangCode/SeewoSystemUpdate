@@ -43,9 +43,12 @@ icacls.exe "..." /deny everyone:(F)
 ```
 
 这一段反复操作了以下目录：
-	•	C:\Windows\SoftwareDistribution\DataStore
-	•	C:\Windows\SoftwareDistribution\Download
-	•	C:\Windows\SoftwareDistribution\sls
+
+C:\Windows\SoftwareDistribution\DataStore
+
+C:\Windows\SoftwareDistribution\Download
+
+C:\Windows\SoftwareDistribution\sls
 
 通过`takeown`获取所有权，随后`icacls /remove everyone` 移除所有人权限，最后`icacls /deny everyone:(F)` 拒绝访问权限（F = full control）
 
