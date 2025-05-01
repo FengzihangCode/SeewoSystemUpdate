@@ -23,8 +23,11 @@ reg add HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate ...
 
 关键设置包括：
 	•	设置 WUServer 和 WUStatusServer 为 ..（非法或空地址），模拟“企业内部 WSUS” 服务器，干扰正常连接 Windows Update。
+ 
 	•	DoNotConnectToWindowsUpdateInternetLocations=1：禁止连接微软更新服务器。
+ 
 	•	UseWUServer=1：强制使用（伪造的）WSUS。
+ 
 	•	NoAutoUpdate=1：禁用自动更新。
 
 而这些设置通常用于“企业禁用更新”或“伪装 WSUS”
