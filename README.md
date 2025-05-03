@@ -6,7 +6,8 @@
 ## Enable
 
 管理员运行
-由于`disable.bat`的触发机理尚不明确，建议替换 C: 中的 `ProgramData` 文件夹里的 disable 文件为 enable
+
+由于`disable.bat`的触发机理尚不明确，建议直接替换 C: 中的 `ProgramData` 文件夹里的 disable 文件为 enable
 
 ## Disable
 
@@ -93,7 +94,7 @@ sc config trustedinstaller binpath= "C:\WINDOWS\servicing\TrustedInstaller.exe"
 
  4.	再还原回原来的 TrustedInstaller.exe 路径
 
-🔐 作用：彻底阻止 MoUsoCoreWorker.exe 被系统访问或重新启动
+该操作彻底阻止了 MoUsoCoreWorker.exe 被系统访问或重新启动
 
 ⸻
 
